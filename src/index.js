@@ -72,5 +72,7 @@ server.get("*", (req, res) => {
     });
 });
 
+console.log("update");
+
 
 server.listen(3000);
