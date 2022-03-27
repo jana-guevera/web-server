@@ -1,0 +1,45 @@
+body{
+    max-width: 650px;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+h1{
+    font-size: 3.5rem;
+    color: grey;
+}
+
+.nav a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+footer p{
+    border-top: 1px solid black;
+    padding-top: 15px;
+}
+
+.info{
+    margin: 20px 0 20px 0;
+}
+
+input[type=text]{
+    padding: 8px 10px;
+}
+
+input[type=submit]{
+    padding: 8px 5px;
+}
+
+.error{
+    color: red;
+}
+
+.success{
+    color: green;
+}
