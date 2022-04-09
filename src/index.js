@@ -72,7 +72,13 @@ server.get("*", (req, res) => {
     });
 });
 
-console.log("update");
+
+var port = 3000;
+
+if(process.env.PORT){
+    port = process.env.PORT
+}
 
 
-server.listen(3000);
+server.listen(port);
+
