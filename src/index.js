@@ -54,6 +54,10 @@ server.get("/weather", (req, res) => {
     }
 });
 
+server.get("/geocode", (req, res) => {
+    res.send("Geocode");
+});
+
 server.get("*", (req, res) => {
     res.render("404", {
         title: "Page not found", 
