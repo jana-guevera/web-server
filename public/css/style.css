@@ -1,0 +1,42 @@
+h1{
+    color: lightgray;
+    font-size: 2.5rem;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 650px;
+    margin: auto;
+}
+
+nav{
+    margin-bottom: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: lightgray;
+    margin: 0 10px 0 0;
+}
+
+input[type=submit]{
+    background-color: lightgray;
+    padding: 6px 10px;
+    border: none;
+}
+
+input[type=text]{
+    padding: 5px 0;
+}
+
+footer p {
+    border-top: 1px solid black;
+    padding-top: 10px;
+}
+
+.error{
+    color: red;
+}
